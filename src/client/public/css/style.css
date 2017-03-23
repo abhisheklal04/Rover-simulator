@@ -1,0 +1,45 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+h3 {
+  background: #346;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 0 0 2px 2px;
+}
+
+.jumbotron p {
+   text-align: left; 
+   font-size: 16px;
+}
+
+.well {
+    height: 160px;
+    overflow-y: auto; 
+}
+
+@media (max-width: 768px) {
+    /* use the max to specify at each container level */
+    .specifictd {
+        width: 360px;
+        /* adjust to desired wrapping */
+        display: table;
+        white-space: pre-wrap;
+        /* css-3 */
+        white-space: -moz-pre-wrap;
+        /* Mozilla, since 1999 */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* Internet Explorer 5.5+ */
+    }
+}
