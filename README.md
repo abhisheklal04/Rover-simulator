@@ -1,4 +1,4 @@
-# ROVER SIMULATION
+# ROVER SIMULATOR
 Simulate a rover on 5x5 matrix
 The web application feeds the instructions to the robot to simulate its position.
 
