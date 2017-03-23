@@ -13,15 +13,18 @@ The web application feeds the instructions to the robot to simulate its position
   6. Multiple commands can be given in each new line
 
 #### Sample Instructions
->PLACE 1,2,NORTH
->MOVE
->LEFT
->MOVE
->REPORT
+```
+PLACE 1,2,NORTH
+MOVE
+LEFT
+MOVE
+REPORT
+```
 
 #### Output
->0,3,WEST
-
+```
+0,3,WEST
+```
 
 
 ### Install Instructions
