@@ -4,12 +4,24 @@ The web application feeds the instructions to the robot to simulate its position
 
 ##Tools : React, Mocha, Chai, Webpack, Node, Express, Bootstrap, HTML, CSS.
 
-Instructions:
+##Instructions:
   1. PLACE X,Y,FACE : Places a robot on 5x5 matrix facing (NORTH|SOUTH|EAST|WEST)   
   2. LEFT | RIGHT : Rotates the robot 90 degrees Left or Right.
   3. MOVE : Moves the robot forward by 1 coordinate in its direction.
-  4. REPORT : Prints Position of robot.
+  4. REPORT : Prints position of robot
   5. Invalid and out of bound commands will be ignored
+  6. Multiple commands can be given in each new line
+
+## Sample Instructions
+  PLACE 1,2,NORTH
+  MOVE
+  LEFT
+  MOVE
+  REPORT
+
+#OUTPUT
+  0,3,WEST
+
 
 
 ### Install Instructions
